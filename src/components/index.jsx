@@ -225,7 +225,7 @@ class MaterialUiPhoneNumber extends React.Component {
     }
 
     if (!text || text.length === 0) {
-      return disableCountryCode ? '' : '+';
+      return '';
     }
 
     // for all strings with length less than 3, just return it (1, 2 etc.)
